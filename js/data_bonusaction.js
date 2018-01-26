@@ -24,6 +24,30 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Overrun",
+        icon: "shield-bash",
+        subtitle: "Overrun a creature",
+        description: "Push through a creature's space",
+        reference: "DMG, pg. 271",
+        bullets: [
+            "As an action or bonus action, you can force your way past a creature.",
+            "Make a contested Strength (Athletics) check, and if you win you can move through the creatures space once this turn.",
+            "If you are larger than the target, you have advantage on your check, if smaller, disadvantage.",
+        ]
+    },
+    {
+        title: "Tumble",
+        icon: "jump-across",
+        subtitle: "Tumble past a creature",
+        description: "Tumble through a creature's space",
+        reference: "DMG, pg. 271",
+        bullets: [
+            "You can try to tumble through a hostile creature's space, ducking and weaving past them.",
+            "As an action or a bonus action, make a contested Dexterity (Acrobatics) check.",
+            "If the tumbler wins, you can move throught the hostile creature's space once this turn.",
+        ]
+    },
+    {
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use bonus actions",

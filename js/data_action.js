@@ -165,6 +165,59 @@ data_action = [
         ]
     },
     {
+        title: "Climb On",
+        icon: "palm",
+        subtitle: "Climb onto creature",
+        description: "You can attempt to climb onto a creature 2 or more sizes larger than you.",
+        reference: "DMG, pg. 271",
+        bullets: [
+            "Make an Althetics (Strength) or Acrobatics (Dexterity) check contested by the target's Acrobatics (Dexterity) check.",
+            "If successful, you move into the targets space and cling to its body.",
+            "While in the target's space, you have move with the target and have advantage on attack rolls against it.",
+            "You can move around the larger target, treating it as difficult terrain.",
+            "Depending on your location on the target, it may still be able to attack you.",
+            "The target can use an action to try to dislodge you with an Athletics (Strength) check contested by your Athletics (Strength) or Acrobatics (Dexterity) check."
+        ]
+    },
+    {
+        title: "Disarm",
+        icon: "drop-weapon",
+        subtitle: "Knock out of hand",
+        description: "Attempt to knock a weapon or other item out of target's hand.",
+        reference: "DMG, pg. 271",
+        bullets: [
+            "Attacker makes attack roll contested by target's Athletics (Strength) or Acrobatics (Dexterity) check.",
+            "If successful, no damage, but target drops weapon or item to the ground.",
+            "Attacker has disadvantage if target item is held with two hands.",
+            "Target has advantage if larger than attacker, or disadvantage if smaller."
+        ]
+    },
+    {
+        title: "Mark",
+        icon: "cross-mark",
+        subtitle: "Mark a target",
+        description: "Harry a specific target further",
+        reference: "DMG, pg. 271",
+        bullets: [
+            "When you make a melee attack, you can mark the target",
+            "Until the end of your next turn, any opportunity attack you make against the marked target has advantage",
+            "The opportunity attack does not consume your reaction.",
+            "Anything that prevents you from taking reactions will prevent the opportunity attack.",
+            "Still limited to one opportunity attack per turn.",
+        ]
+    },
+    {
+        title: "Shove Aside",
+        icon: "push",
+        subtitle: "Shove a creature to the side",
+        description: "You can use a Shove action to push a creature aside",
+        reference: "DMG, pg. 271",
+        bullets: [
+            "Take a <i>Shove</i> action, but with disadvantage on the skill check.",
+            "If you succeed, you can move the target 5 feet to a different space within your reach."
+        ]
+    },
+    {
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use actions",
